@@ -7,6 +7,7 @@ pacman_deps=(
 	alacritty
 	hyprpaper
 	rofi
+	nemo
 )
 
 aur_deps=(
