@@ -4,9 +4,9 @@
 A theme switcher i made for hyprland. It changes the GTK theme as well as themes for multiple applications.
 
 
-## Screenshots
+# Screenshots
 
-# Gruvbox-Dark
+## Gruvbox-Dark
 ![Gruvbox-Dark](https://github.com/ckznnn/dotfiles-swapper/blob/main/Gruvbox-Dark-Preview.png?raw=true)
 
 
