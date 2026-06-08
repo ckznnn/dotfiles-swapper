@@ -31,6 +31,8 @@ If you aren't on arch linux the install script wont work. Install these dependan
   vesktop
 ```
 
+## Using Install script for arch
+
 change directory to repo
 
 ```bash
