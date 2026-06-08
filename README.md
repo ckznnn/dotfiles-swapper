@@ -72,5 +72,5 @@ Finally execute the script
 
 Pick number between 1-4 to activate the theme.
 
-![demo] (https://github.com/ckznnn/dotfiles-swapper/blob/main/Script-Preview.png?raw=true)
+![demo](https://github.com/ckznnn/dotfiles-swapper/blob/main/Script-Preview.png?raw=true)
 
