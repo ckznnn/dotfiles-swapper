@@ -38,7 +38,7 @@ If you aren't on arch linux the install script wont work. Install these dependan
 change directory to repo
 
 ```bash
-  cd dotifles-swapper 
+  cd dotfiles-swapper 
 ```
 make script executable
 
