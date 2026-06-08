@@ -94,3 +94,6 @@ Pick number between 1-4 to activate the theme.
 
 ![demo](https://github.com/ckznnn/dotfiles-swapper/blob/main/Script-Preview.png?raw=true)
 
+
+# DISCLAIMER
+# Whilst testing this i ran into a an issue with dolphin i highly suggest swapping your file manager to nemo to avoid issues
