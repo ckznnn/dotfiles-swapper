@@ -70,5 +70,7 @@ Finally execute the script
 ```
 ## Demo
 
+Pick number between 1-4 to activate the theme.
+
 Insert gif or link to demo
 
