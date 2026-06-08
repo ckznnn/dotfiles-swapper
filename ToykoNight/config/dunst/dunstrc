@@ -1,0 +1,159 @@
+# ============================================================
+#  dunstrc — Dunst Notification Daemon Config
+#  Organised into clearly labelled sections so colours and
+#  modules are easy to tweak without hunting through the file.
+# ============================================================
+#
+#  COLOUR REFERENCE (edit the actual values in [urgency_*] below)
+#
+#  Low urgency      bg=#1e1e2e  fg=#cdd6f4  frame=#313244
+#  Normal urgency   bg=#1e1e2e  fg=#cdd6f4  frame=#89b4fa
+#  Critical urgency bg=#1e1e2e  fg=#f38ba8  frame=#f38ba8
+#
+# ============================================================
+
+
+# ============================================================
+#  GLOBAL SETTINGS
+# ============================================================
+
+[global]
+
+    # --- Position & Size ---
+    origin           = top-right   # top-left | top-center | top-right
+                                   # bottom-left | bottom-center | bottom-right
+    offset           = (10, 40)    # (horizontal, vertical) gap from screen edge
+    width            = 300         # notification width in pixels
+    height           = (0, 200)    # (min, max) height — 0 min = dynamic height
+
+    gap_size         = 6           # gap between stacked notifications
+
+    # --- Notification Behaviour ---
+    timeout          = 5           # seconds before auto-dismiss (0 = never)
+    stack_duplicates = true        # merge identical notifications
+    sticky_history   = yes         # keep dismissed notifications in history
+    history_length   = 20          # how many to keep
+
+    # --- Appearance ---
+    corner_radius    = 8           # rounded corners (0 = square)
+    frame_width      = 2           # border thickness in pixels
+    separator_height = 2           # line between notifications
+    padding          = 10          # inner vertical padding
+    horizontal_padding = 12        # inner horizontal padding
+
+    # --- Font ---
+    font             = JetBrains Mono 10   # change to any installed font
+
+    # --- Icons ---
+    icon_position    = left        # left | right | off
+    min_icon_size    = 32
+    max_icon_size    = 64
+
+    # --- Markup & Text ---
+    markup           = full        # full | strip | no
+    format           = "<b>%s</b>\n%b"   # %s = summary, %b = body
+    word_wrap        = yes
+    ellipsize        = middle      # where to cut off long text
+
+    # --- Mouse Actions ---
+    mouse_left_click   = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click  = close_all
+
+    # --- Misc ---
+    follow           = mouse       # which monitor to show on: mouse | keyboard | none
+    sort             = yes         # sort by urgency
+
+
+# ============================================================
+#  URGENCY LEVELS
+#  Change colours here — the COLOUR REFERENCE at the top of
+#  the file is a quick summary of all values in one place.
+# ============================================================
+
+[urgency_low]
+    background  = "#1e1e2e"
+    foreground  = "#cdd6f4"
+    frame_color = "#313244"
+    timeout     = 4              # shorter timeout for low-priority
+
+[urgency_normal]
+    background  = "#1e1e2e"
+    foreground  = "#cdd6f4"
+    frame_color = "#89b4fa"
+    timeout     = 5
+
+[urgency_critical]
+    background  = "#1e1e2e"
+    foreground  = "#f38ba8"
+    frame_color = "#f38ba8"
+    timeout     = 0              # stay on screen until dismissed
+
+
+# ============================================================
+#  CUSTOM RULES (MODULES)
+#  Add per-app or per-keyword overrides here.
+#  Each rule block needs a unique name in [square brackets].
+#
+#  Useful filter fields:
+#    appname, summary, body, icon, category, urgency
+#
+#  Useful override fields:
+#    background, foreground, frame_color, timeout,
+#    format, icon, set_stack_tag, history_ignore
+# ============================================================
+
+[play_sound]
+    summary = "*"
+    script = ~/.config/dunst/notify-sound.sh
+
+
+
+# --- Volume / Audio notifications ---
+[volume]
+    appname        = dunst-volume   # change to match your notifier
+    summary        = "Volume*"
+    background     = "#1e1e2e"
+    foreground     = "#a6e3a1"      # green
+    frame_color    = "#a6e3a1"
+    timeout        = 2
+    history_ignore = yes            # don't clutter history
+
+# --- Battery warnings ---
+[battery_low]
+    appname        = upower
+    summary        = "*Low*"
+    background     = "#1e1e2e"
+    foreground     = "#fab387"      # peach/orange
+    frame_color    = "#fab387"
+    urgency        = critical
+
+# --- Screenshot confirmations ---
+[screenshot]
+    appname        = flameshot
+    background     = "#1e1e2e"
+    foreground     = "#cba6f7"      # mauve
+    frame_color    = "#cba6f7"
+    timeout        = 3
+
+# --- Music / Media player (e.g. playerctl / mpd) ---
+[media]
+    appname        = "playerctl"
+    background     = "#1e1e2e"
+    foreground     = "#89dceb"      # sky blue
+    frame_color    = "#89dceb"
+    timeout        = 3
+
+# --- Calendar / Reminder apps ---
+[reminder]
+    category       = "reminder"
+    background     = "#1e1e2e"
+    foreground     = "#f9e2af"      # yellow
+    frame_color    = "#f9e2af"
+    timeout        = 0
+
+# ============================================================
+#  END OF CONFIG
+#  Save to ~/.config/dunst/dunstrc then restart dunst:
+#    killall dunst && dunst &
+# ============================================================
