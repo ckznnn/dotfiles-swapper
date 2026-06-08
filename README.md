@@ -63,7 +63,7 @@ execute script
 To use this project first make the script executable
 
 ```bash
-  cd dotfiles-swapper/script
+  cd Script
 ```
 ```bash
   chmod +x gruvbox-dark.sh
