@@ -19,6 +19,18 @@ Clone the repo (Install to home ~/)
 ```
 ## Install Dependancies:
 
+If you aren't on arch linux the install script wont work. Install these dependancies:
+```bash
+  waybar
+  dunst
+  spotify
+  spicetify
+  alacritty
+  hyprpaper
+  rofi
+  vesktop
+```
+
 change directory to repo
 
 ```bash
