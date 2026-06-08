@@ -34,9 +34,6 @@ If you aren't on arch linux the install script wont work. Install these dependan
   nemo
 ```
 
-## Make sure to launch Vesktop and do spicetifty backup_apply before you use the script
-
-## As well as adding hyprpaper and waybar to your auto start in your hyprland config
 
 ## Using Install script for arch
 
@@ -65,6 +62,11 @@ execute script
 
 ## Usage
 
+## Make sure to launch Vesktop and do spicetifty backup_apply before you use the script
+
+## As well as adding hyprpaper and waybar to your auto start in your hyprland config
+
+
 To use this project first make the script executable
 
 ```bash
@@ -90,6 +92,8 @@ Finally execute the script
 ```bash
   ./theme-switcher.sh
 ```
+## After running select your theme in discord as well as selecting "master.rasi" theme within the rofi theme selector (You only need to do this on first activation)
+
 ## Demo
 
 Pick number between 1-4 to activate the theme.
