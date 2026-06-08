@@ -3,6 +3,8 @@
 
 A theme switcher i made for hyprland. It changes the GTK theme as well as themes for multiple applications.
 
+currently only has the TokyoNight theme and the Gruvbox-Dark theme.
+
 
 # Screenshots
 
