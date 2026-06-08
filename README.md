@@ -1,3 +1,74 @@
-# dotfiles-swapper
 
-## INSTALLATION
+# Dotfiles Theme Switcher
+
+A theme switcher i made for hyprland. It changes the GTK theme as well as themes for multiple applications.
+
+
+## Screenshots
+
+![App Screenshot](https://dummyimage.com/468x300?text=App+Screenshot+Here)
+
+
+## Installation
+
+Clone the repo (Install to home ~/)
+
+```bash
+  git clone https://github.com/ckznnn/dotfiles-swapper.git
+```
+## Install Dependancies:
+
+change directory to repo
+
+```bash
+  cd dotifles-swapper 
+```
+make script executable
+
+```bash
+ chmod +x install-dependancies.sh 
+```
+execute script
+
+
+```bash
+  ./install-dependancies.sh 
+```
+## Features
+
+- Four different themes (Gruvbox-Dark, Gruvbox-Light, Everforest-dark and TokyoNight)
+- Theming for different applications (Discord, Alacritty, Spotify, GTK, Icons, Notifications, Waybar, Rofi)
+- Included Wallpapers as well as Wallpaper switcher.
+
+
+## Usage
+
+To use this project first make the script executable
+
+```bash
+  cd dotfiles-swapper/script
+```
+```bash
+  chmod +x gruvbox-dark.sh
+  chmod +x tokyonight.sh
+  chmod +x gruvbox-light.sh
+  chmod +x everforest-dark.sh
+```
+Then make the master script executable
+
+```bash
+  cd ..
+```
+```bash
+  chmod +x theme-switcher.sh
+```
+ 
+Finally execute the script
+
+```bash
+  ./theme-switcher.sh
+```
+## Demo
+
+Insert gif or link to demo
+
