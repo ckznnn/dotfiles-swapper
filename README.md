@@ -31,6 +31,8 @@ If you aren't on arch linux the install script wont work. Install these dependan
   vesktop
 ```
 
+## Make sure to launch Vesktop and do spicetifty backup_apply before you use the script
+
 ## Using Install script for arch
 
 change directory to repo
