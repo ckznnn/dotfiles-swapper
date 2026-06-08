@@ -29,9 +29,12 @@ If you aren't on arch linux the install script wont work. Install these dependan
   hyprpaper
   rofi
   vesktop
+  nemo
 ```
 
 ## Make sure to launch Vesktop and do spicetifty backup_apply before you use the script
+
+## As well as adding hyprpaper and waybar to your auto start in your hyprland config
 
 ## Using Install script for arch
 
