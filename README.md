@@ -35,6 +35,7 @@ If you aren't on arch linux the install script wont work. Install these dependan
   rofi
   vesktop
   nemo
+  zen-browser-bin
 ```
 
 
