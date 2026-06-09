@@ -63,7 +63,7 @@ execute script
 - Included Wallpapers as well as Wallpaper switcher.
 
 
-## Usage
+# Usage
 
 ## Make sure to launch Vesktop and do spicetifty backup_apply before you use the script
 
@@ -71,6 +71,14 @@ execute script
 
 ## Backup your hyprland.lua as the script replaces it
 
+## Make Zen-Browser theme work
+
+```bash
+  about:config # Enter into search bar in zen
+```
+```bash
+  toolkit.legacyUserProfileCustomizations.stylesheets # Search for this and toggle on
+```
 
 To use this project first make the script executable
 
