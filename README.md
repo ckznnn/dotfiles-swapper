@@ -69,6 +69,8 @@ execute script
 
 ## As well as adding hyprpaper and waybar to your auto start in your hyprland config
 
+## Backup your hyprland.lua as the script replaces it
+
 
 To use this project first make the script executable
 
