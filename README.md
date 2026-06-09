@@ -12,7 +12,7 @@ currently only has the TokyoNight theme and the Gruvbox-Dark theme.
 ![Gruvbox-Dark](https://github.com/ckznnn/dotfiles-swapper/blob/main/Gruvbox-Dark-Preview.png?raw=true)
 
 ## TokyoNight
-![TokyoNight](https://github.com/ckznnn/dotfiles-swapper/blob/main/TokyoNight-Preview.png?raw=true)
+![TokyoNight](https://github.com/ckznnn/dotfiles-swapper/blob/main/TokyoNIght-Preview.png?raw=true)
 
 
 ## Installation
