@@ -1,6 +1,6 @@
 #bin/bash
 # TokyoNight Theme Swapper
-sudo cp -r ~/dotfiles-swapper/ToykoNight/config/rofi/. /usr/share/rofi/themes
+cp -r ~/dotfiles-swapper/ToykoNight/config/rofi/. ~/.config/rofi
 cp -r ~/dotfiles-swapper/ToykoNight/config/dunst ~/.config
 cp -r ~/dotfiles-swapper/ToykoNight/config/vesktop/themes  ~/.config/vesktop
 cp -r ~/dotfiles-swapper/ToykoNight/config/alacritty/. ~/.config/alacritty

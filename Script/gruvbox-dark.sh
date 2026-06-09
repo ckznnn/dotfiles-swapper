@@ -1,6 +1,6 @@
 #bin/bash
 # Gruvbox-dark Theme Swapper
-sudo cp -r ~/dotfiles-swapper/Gruvbox-dark/config/rofi/. /usr/share/rofi/themes
+cp -r ~/dotfiles-swapper/Gruvbox-dark/config/rofi/. ~/.config/rofi
 cp -r ~/dotfiles-swapper/Gruvbox-dark/config/dunst ~/.config
 cp -r ~/dotfiles-swapper/Gruvbox-dark/config/vesktop/themes  ~/.config/vesktop
 cp -r ~/dotfiles-swapper/Gruvbox-dark/config/alacritty/. ~/.config/alacritty
