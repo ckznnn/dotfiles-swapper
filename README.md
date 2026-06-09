@@ -72,6 +72,8 @@ execute script
 ### Backup your hyprland.lua as the script replaces it
 
 
+
+
 ## Make Zen-Browser theme work
 
 ```bash
