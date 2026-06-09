@@ -13,6 +13,7 @@ pacman_deps=(
 aur_deps=(
 	vesktop
 	spicetify-cli
+	zen-browser-bin
 )
 
 
