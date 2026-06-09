@@ -64,7 +64,7 @@ execute script
 - Included Wallpapers as well as Wallpaper switcher.
 
 
-# Usage
+# Prerequisites
 
  Make sure to launch Vesktop and do spicetifty backup_apply before you use the script
 
@@ -83,14 +83,8 @@ execute script
 ```bash
   toolkit.legacyUserProfileCustomizations.stylesheets # Search for this and toggle on
 ```
-# After you need to manually place the userChrome.css inside your zen profiles chrome/ directory 
 
-```bash
-  about:profiles # Find the root directory for your default profile
-```
-```bash
-  cd ~/dotfiles-swapper/"theme-name"/config/zen # Place userChome.css into directory
-```
+# Usage
 
 To use this project first make the script executable
 
