@@ -84,7 +84,7 @@ execute script
   toolkit.legacyUserProfileCustomizations.stylesheets # Search for this and toggle on
 ```
 
-# Usage
+# Usage (Terminal & GUI)
 
 To use this project first make the script executable
 
@@ -96,17 +96,10 @@ To use this project first make the script executable
   chmod +x tokyonight.sh
   chmod +x gruvbox-light.sh
   chmod +x everforest-dark.sh
-```
-Then make the master script executable
-
-```bash
-  cd ..
-```
-```bash
   chmod +x theme-switcher.sh
-```
- 
-Finally execute the script
+  chmod +x theme-switcher.py
+``` 
+Execute the script (Terminal)
 
 ```bash
   ./theme-switcher.sh
@@ -117,8 +110,20 @@ Finally execute the script
 
 Pick number between 1-4 to activate the theme.
 
+Execute the script (GUI)
+
+```bash
+  python3 theme-switcher.py
+```
+
+Choose the theme you want to activate.
+
+## Terminal
 ![demo](https://github.com/ckznnn/dotfiles-swapper/blob/main/Script-Preview.png?raw=true)
 
+## GUI
+
+![demo](https://github.com/ckznnn/dotfiles-swapper/blob/main/Script-Preview.png?raw=true)
 
 # DISCLAIMER
 # Whilst testing this i ran into a an issue with dolphin i highly suggest swapping your file manager to nemo to avoid issues
