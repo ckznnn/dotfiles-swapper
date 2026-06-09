@@ -123,7 +123,7 @@ Choose the theme you want to activate.
 
 ## GUI
 
-![demo](https://github.com/ckznnn/dotfiles-swapper/blob/main/Script-Preview.png?raw=true)
+![demo](https://github.com/ckznnn/dotfiles-swapper/blob/main/Script-GUI-Preview.png?raw=true)
 
 # DISCLAIMER
 # Whilst testing this i ran into a an issue with dolphin i highly suggest swapping your file manager to nemo to avoid issues
