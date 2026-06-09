@@ -65,11 +65,11 @@ execute script
 
 # Usage
 
-### Make sure to launch Vesktop and do spicetifty backup_apply before you use the script
+ Make sure to launch Vesktop and do spicetifty backup_apply before you use the script
 
-### As well as adding hyprpaper and waybar to your auto start in your hyprland config
+ As well as adding hyprpaper and waybar to your auto start in your hyprland config
 
-### Backup your hyprland.lua as the script replaces it
+ Backup your hyprland.lua as the script replaces it
 
 
 
